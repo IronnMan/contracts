@@ -4,7 +4,7 @@
 
 该合约仅支持`BNB`或`HT`池子，不支持`USDT`或其他池子，不支持分红 `BNB`、`WBNB`、`HT`、`WHT`
 
-- 2022-08-16 更新:
+- 2022-08-07 更新:
   - 为感谢各位朋友支持，分红合约移除`serviceAddr_`参数，去除收费逻辑，代币完全公开且免费。
   - 增加 BSC 测试网支持。
   - 增加 HECO 主网支持。
@@ -25,7 +25,7 @@ HECO 主网（MDEXSwap）`RedKing_heco_mainnet_128.sol`
 
 https://youtu.be/trql3DDUb4Q
 
-2022-08-16 更新后与视频讲解略有不同。部署时无需填写 Value 和 serviceAddr\_
+2022-08-07 更新后与视频讲解略有不同。部署时无需填写 Value 和 serviceAddr\_
 
 ## TG 技术交流群
 
@@ -51,7 +51,7 @@ symbol_: RedKing (代币符号)
 totalSupply_: 1000000000000000 (发行量)
 rewardAddr_: 要分红的代币合约，BSC常用代币地址在下方
 marketingWalletAddr_: 自己的市场营销钱包
-serviceAddr_: 已于2022-08-06移除该参数，无需填写
+serviceAddr_: 已于2022-08-07移除该参数，无需填写
 buyFeeSetting_: [4,3,2,1] (分红、流动性、市场营销、燃烧)
 sellFeeSetting_: [5,4,3,2] (分红、流动性、市场营销、燃烧)
 tokenBalanceForReward_: 1000000000000000000000000000 (持有多少代币参与分红。数量后要加18个0)
